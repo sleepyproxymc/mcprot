@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Join MCProtection" />
+    <meta property="og:description" content="Report users, servers & websites" />
+    <meta property="og:image" content="https://cdn.discordapp.com/attachments/1413231378090426414/1413239299167490198/mcprotection.png?ex=68bb3529&is=68b9e3a9&hm=0ce94038f25828fccd8767fb98c9538692609c7c989d941c43b7f80048487b7e&" />
+    <meta property="og:url" content="https://mcprot.club/support" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="mcprot.club" />
+    <meta name="theme-color" content="#1285FF" />
+
+    <!-- Add a short delay before redirection -->
+    <script type="text/javascript">
+        setTimeout(function() {
+            if (window.location.pathname === "/support") {
+                window.location.href = "https://discord.gg/yQabZ8Sy";
+            }
+        }, 1000); // 3-second delay
+    </script>
+
+    <style>
+        /* Apply a smooth gradient background */
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #1285FF, #010415); /* Updated gradient colors */
+            background-size: 400% 400%;
+            animation: gradientAnimation 8s ease infinite;
+            color: white;
+            text-align: center;
+        }
+
+        /* Gradient animation */
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Styling the redirect message */
+        p {
+            font-size: 1.5rem;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Fade-in animation for the text */
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
